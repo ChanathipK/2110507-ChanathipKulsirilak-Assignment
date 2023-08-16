@@ -1,0 +1,96 @@
+@media (min-width: 601px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (min-width: 901px) {
+    .container {
+        width: 810px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .container {
+        width: 1080px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .container {
+        width: 1296px;
+    }
+}
+
+.container {
+    margin: auto auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.container > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-home {
+    border: 2px solid black;
+    padding: 5px 20px;
+    transition: 0.2s;
+    border-radius: 6px;
+}
+
+#nav-home:hover {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+#nav-signup {
+    color: rgba(30, 30, 30, 1);
+    transition: 0.3s;
+}
+
+#nav-signup:hover {
+    text-decoration: underline;
+}
+
+
+/* ========== Main Container ========== */
+
+.brand {
+    width: 100%;
+}
+
+main.container > .brand > h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main.container > .brand > img {
+    width: 100%;
+}
+
+@media (min-width: 901px) {
+    main.container > .brand {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main.container > .brand > h1 {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    main.container > .brand > img {
+        width: 60%;
+    }
+}

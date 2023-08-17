@@ -13,13 +13,13 @@
         </a>
         <h1 class="sign-up-heading text-center tl-rd-md tr-rd-md">Sign Up</h1>
         <div class="signup-pane bl-rd-md br-rd-md">
-            <form name="signup-form" action="index.html" method="post">
+            <form name="signup-form" action="../index.html" onsubmit="return formValidation()" method="post">
                 <div class="company-name input-field">
-                    <label for="company-name">Company Name</label><input type="text" id="company-name" class="bd-rd-sm" placeholder="Company Name Co., Ltd." required>
+                    <label for="company-name">Company Name</label><input type="text" id="company-name" class="bd-rd-sm" placeholder="Company Name Co., Ltd.">
                 </div>
                 <div class="booth-size input-field">
                     <label for="booth-size-dropdown">Booth Size</label>
-                    <select name="" id="booth-size-dropdown" class="booth-size-dropdown" class="bd-rd-sm">
+                    <select name="" id="booth-size-dropdown" class="booth-size-dropdown" class="bd-rd-sm" required>
                         <option id="small" value="small" selected>Small (4 x 4 sq.m.)</option>
                         <option id="medium" value="small">Medium (6 x 6 sq.m.)</option>
                         <option id="large" value="large">Large (8 x 8 sq.m.)</option>

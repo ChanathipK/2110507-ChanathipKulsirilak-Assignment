@@ -6,13 +6,13 @@ body {
 }
 
 .homepage-link {
-    position: relative;
+    display: inline-block;
     font-size: 1rem;
     text-decoration: none;
-    top: 2rem;
     padding: 10px 30px;
     border: 2px solid black;
     border-radius: 6px;
+    margin-bottom: 16px;
 }
 
 .homepage-link:hover {
@@ -27,6 +27,7 @@ body {
 .signup {
     width: 100%;
     min-width: 400px;
+    max-width: 600px;
     margin: 50px auto auto;
 }
 
@@ -34,29 +35,17 @@ body {
     .signup {
         width: 80%;
     }
-
-    .homepage-link {
-        left: 10%;
-    }
 }
 
 @media (min-width: 901px) {
     .signup {
         width: 60%;
     }
-
-    .homepage-link {
-        left: 20%;
-    }
 }
 
 @media (min-width: 1201) {
     .signup {
         width: 40%;
-    }
-
-    .homepage-link {
-        left: 30%;
     }
 }
 
